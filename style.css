@@ -1,0 +1,378 @@
+body {
+    
+background: #e6c866;
+}
+
+
+.mm {
+display: flex;
+margin: 30px 50px 30px ;
+
+}
+
+.n1 {
+    width: 340px;
+    height: 200px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.n2 {
+    width: 340px;
+    height: 200px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.n3 {
+    width: 340px;
+    height: 200px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.m1{
+    border-radius: 15px;
+overflow: hidden;
+padding: 15px;
+font-family: "montserrat",sans-serif;
+box-shadow: 0 0 20px #00000070;
+
+}
+
+
+.m2{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+    font-family: "montserrat",sans-serif;
+    box-shadow: 0 0 20px #00000070;
+    }
+
+    .m3{
+        border-radius: 15px;
+        overflow: hidden;
+        padding: 15px;
+        font-family: "montserrat",sans-serif;
+        box-shadow: 0 0 20px #00000070;
+      
+        }
+
+
+
+        .mn1 {
+
+            width: 150px;
+            height: 40px;
+            cursor:pointer;
+                position:relative;
+                padding:10px 20px;
+                background:white;
+                font-size:28px;
+                border-top-right-radius:10px;
+                border-bottom-left-radius:10px;
+                transition:all 1s;
+            }
+            .mn1 {
+             &:after,&:before{
+                content:" ";
+                width:10px;
+                height:10px;
+                position:absolute;
+                border :0px solid #fff;
+                transition:all 1s;
+                }
+             &:after{
+                top:-1px;
+                left:-1px;
+                border-top:5px solid black;
+                border-left:5px solid black;
+            }
+             &:before{
+                bottom:-1px;
+                right:-1px;
+                border-bottom:5px solid black;
+                border-right:5px solid black;
+            }
+             &:hover{
+                border-top-right-radius:0px;
+            border-bottom-left-radius:0px;
+                // background:rgba(0,0,0,.5);
+                // color:white;
+                &:before,&:after{
+                    width:100%;
+                    height:100%;
+                    // border-color:white;
+                }
+            }
+            
+            }
+            
+            .mn1 {
+            
+                width: 150px;
+                height: 40px;
+                cursor:pointer;
+                    position:relative;
+                    padding:10px 20px;
+                    background:white;
+                    font-size:28px;
+                    border-top-right-radius:10px;
+                    border-bottom-left-radius:10px;
+                    transition:all 1s;
+                }
+                .mn1 {
+                 &:after,&:before{
+                    content:" ";
+                    width:10px;
+                    height:10px;
+                    position:absolute;
+                    border :0px solid #fff;
+                    transition:all 1s;
+                    }
+                 &:after{
+                    top:-1px;
+                    left:-1px;
+                    border-top:5px solid black;
+                    border-left:5px solid black;
+                }
+                 &:before{
+                    bottom:-1px;
+                    right:-1px;
+                    border-bottom:5px solid black;
+                    border-right:5px solid black;
+                }
+                 &:hover{
+                    border-top-right-radius:0px;
+                border-bottom-left-radius:0px;
+                    // background:rgba(0,0,0,.5);
+                    // color:white;
+                    &:before,&:after{
+                        width:100%;
+                        height:100%;
+                        // border-color:white;
+                    }
+                }
+                
+                }
+            
+            
+            
+            
+            
+            
+                .mn2 {
+            
+                    width: 150px;
+                    height: 40px;
+                    cursor:pointer;
+                        position:relative;
+                        padding:10px 20px;
+                        background:white;
+                        font-size:28px;
+                        border-top-right-radius:10px;
+                        border-bottom-left-radius:10px;
+                        transition:all 1s;
+                    }
+                    .mn2 {
+                     &:after,&:before{
+                        content:" ";
+                        width:10px;
+                        height:10px;
+                        position:absolute;
+                        border :0px solid #fff;
+                        transition:all 1s;
+                        }
+                     &:after{
+                        top:-1px;
+                        left:-1px;
+                        border-top:5px solid black;
+                        border-left:5px solid black;
+                    }
+                     &:before{
+                        bottom:-1px;
+                        right:-1px;
+                        border-bottom:5px solid black;
+                        border-right:5px solid black;
+                    }
+                     &:hover{
+                        border-top-right-radius:0px;
+                    border-bottom-left-radius:0px;
+                        // background:rgba(0,0,0,.5);
+                        // color:white;
+                        &:before,&:after{
+                            width:100%;
+                            height:100%;
+                            // border-color:white;
+                        }
+                    }
+                    
+                    }
+            
+            
+            
+                    .mn3 {
+                   
+                        width: 150px;
+                        height: 40px;
+                        cursor:pointer;
+                            position:relative;
+                            padding:10px 20px;
+                            background:white;
+                            font-size:28px;
+                            border-top-right-radius:10px;
+                            border-bottom-left-radius:10px;
+                            transition:all 1s;
+                        }
+                        .mn3 {
+                         &:after,&:before{
+                            content:" ";
+                            width:10px;
+                            height:10px;
+                            position:absolute;
+                            border :0px solid #fff;
+                            transition:all 1s;
+                            }
+                         &:after{
+                            top:-1px;
+                            left:-1px;
+                            border-top:5px solid black;
+                            border-left:5px solid black;
+                        }
+                         &:before{
+                            bottom:-1px;
+                            right:-1px;
+                            border-bottom:5px solid black;
+                            border-right:5px solid black;
+                        }
+                         &:hover{
+                            border-top-right-radius:0px;
+                        border-bottom-left-radius:0px;
+                            // background:rgba(0,0,0,.5);
+                            // color:white;
+                            &:before,&:after{
+                                width:100%;
+                                height:100%;
+                                // border-color:white;
+                            }
+                        }
+                        
+                        }
+            
+            
+            
+            
+                        .mn4 {
+                            
+                            width: 150px;
+                            height: 40px;
+                            cursor:pointer;
+                                position:relative;
+                                padding:10px 20px;
+                                background:white;
+                                font-size:28px;
+                                border-top-right-radius:10px;
+                                border-bottom-left-radius:10px;
+                                transition:all 1s;
+                            }
+                            .mn4 {
+                             &:after,&:before{
+                                content:" ";
+                                width:10px;
+                                height:10px;
+                                position:absolute;
+                                border :0px solid #fff;
+                                transition:all 1s;
+                                }
+                             &:after{
+                                top:-1px;
+                                left:-1px;
+                                border-top:5px solid black;
+                                border-left:5px solid black;
+                            }
+                             &:before{
+                                bottom:-1px;
+                                right:-1px;
+                                border-bottom:5px solid black;
+                                border-right:5px solid black;
+                            }
+                             &:hover{
+                                border-top-right-radius:0px;
+                            border-bottom-left-radius:0px;
+                                // background:rgba(0,0,0,.5);
+                                // color:white;
+                                &:before,&:after{
+                                    width:100%;
+                                    height:100%;
+                                    // border-color:white;
+                                }
+                            }
+                            
+                            }
+            
+            
+            
+            
+            
+            
+                            .mn5 {
+                               
+                                
+                              
+                                width: 150px;
+                                height: 40px;
+                                cursor:pointer;
+                                    position:relative;
+                                    padding:10px 20px;
+                                    background:white;
+                                    font-size:28px;
+                                    border-top-right-radius:10px;
+                                    border-bottom-left-radius:10px;
+                                    transition:all 1s;
+                                }
+                                .mn5 {
+                                 &:after,&:before{
+                                    content:" ";
+                                    width:10px;
+                                    height:10px;
+                                    position:absolute;
+                                    border :0px solid #fff;
+                                    transition:all 1s;
+                                    }
+                                 &:after{
+                                    top:-1px;
+                                    left:-1px;
+                                    border-top:5px solid black;
+                                    border-left:5px solid black;
+                                }
+                                 &:before{
+                                    bottom:-1px;
+                                    right:-1px;
+                                    border-bottom:5px solid black;
+                                    border-right:5px solid black;
+                                }
+                                 &:hover{
+                                    border-top-right-radius:0px;
+                                border-bottom-left-radius:0px;
+                                    // background:rgba(0,0,0,.5);
+                                    // color:white;
+                                    &:before,&:after{
+                                        width:100%;
+                                        height:100%;
+                                        // border-color:white;
+                                    }
+                                }
+                                
+                                }
+            
+                                .bn {
+                                    background: #e6c866;
+            width: 193px;
+            
+                                }
+
+                                .hcl {
+display: flex;
+justify-content: space-between;
+
+
+                                }
